@@ -1,21 +1,22 @@
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /**
- * main -Entry point
- *
- * return: Always (0) success
+ * main - main block
+ * Description: get a random number and print the number
+ * and if it is positive, negetive or Zero
+ * Return: 0
  */
 int main(void)
 {
 	int n;
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX /2;
 	if (n > 0)
-		printf("%d is positive\n", n);
-	else if (n == 0)
-		printf("%d is zero\n", n);
+		printf("%i is positive\n", n);
+	else if (n < 0)
+		printf("%i is negetive\n", n);
 	else
-		printf("%d is negetive\n", n);
+		printf("%i is zero\n", n);
 	return (0);
 }
