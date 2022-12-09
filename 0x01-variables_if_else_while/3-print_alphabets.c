@@ -1,10 +1,12 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - main block
  * Description: print the alphabet in upper case
  * and the in upper case, followed by a new line
  * Return: 0
  */
+
 int main(void)
 {
 	char c = 'a';
