@@ -4,7 +4,7 @@
  * print_alphabetx10 - print alpha 10 times
  */
 
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	int ten;
 	char la;
@@ -15,6 +15,4 @@ void print_alphabet_x10(void);
 			_putchar(la);
 		_putchar('\n');
 	}
-
-	return (0);
 }
