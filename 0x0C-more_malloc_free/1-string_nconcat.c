@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdlib.h>
 /**
- * _strlen - calculater and return string lenght
+ * _strlen - calculate and return string lenght
  * @string - string
  * return:string lenght
  */
@@ -11,12 +11,13 @@ int _strlen(char *string)
 	int i;
 
 	for (i = 0; string[i] != '\0'; i++)
-		return (i);
+		;
+	return (i);
 }
 /**
  * string_nconcat - concatenates s1 ans n bytes of s2; return ptr to string
- * @s1: string1
- * @s2: string2
+ * @s1: string 1
+ * @s2: string 2
  * @n: n bytes to concates fron string 2
  * Return: pointer to concatenated string
  */
